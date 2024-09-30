@@ -7,12 +7,12 @@ public class PrintEvenFrom0to100 {
 		int[] numbers = {10,20,30,40,50};
 		
 		// Approach 1 for even number
-	/*	for (int i = 2; i<=100; i +=2 ) {
+		for (int i = 2; i<=100; i +=2 ) {
 			System.out.println(i);
-		}*/
+		}
 		
 		// Approach 2 for even number
-		for (int i=1; 1<=100; i++) {
+		for (int i=1; i<=100; i++) {
 			if (i%2==0) {
 				System.out.println(i);
 			}

@@ -6,7 +6,7 @@ public class FindOddPosInArray {
 		// TODO Auto-generated method stub
 		int[] numbers = {10,20,30,40,50};
 		
-		//apprach 1 for finding odd values
+		//approach 1 for finding odd values
 		
 		for(int i=1; i<numbers.length; i+=2) {
 			System.out.println(numbers[i]);
@@ -20,3 +20,4 @@ public class FindOddPosInArray {
 		}
 	}
 }
+
