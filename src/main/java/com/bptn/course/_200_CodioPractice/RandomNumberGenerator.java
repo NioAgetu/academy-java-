@@ -1,4 +1,4 @@
-package com.bptn.course._200_mathpractice;
+package com.bptn.course._200_CodioPractice;
 
 import java.util.Random;
 
