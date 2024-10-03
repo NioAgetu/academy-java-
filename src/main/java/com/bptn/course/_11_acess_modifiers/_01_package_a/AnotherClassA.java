@@ -20,9 +20,11 @@ public class AnotherClassA {
 		myObj.protectedMethod();
 		System.out.println("Accessing public variable: " + myObj.protectedVasriable);
 		
-		
-
-
 	}
 
 }
+//Major keytakes
+//1. We cannot access the private variable and method  outside the class but in the same package
+//2. We can access default variable and method  outside the class but in the same package
+//3. We can access public variable and method outside the class but in the same package
+//4. We can access protected variable and method  outside the class but in the same package
