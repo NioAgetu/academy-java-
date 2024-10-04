@@ -1,6 +1,6 @@
 package com.bptn.course._200_CodioPractice._01_4_in_a_row;
 
-public class Player {
+/*public class Player {
 	private String name;
     private String PlayerNumber;
     // Add other instance variable(s)
@@ -24,4 +24,4 @@ public class Player {
         return ("Player " + playerNumber + " is " + name);
     }
 
-}
+}*/
