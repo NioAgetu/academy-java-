@@ -4,10 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BankAccount ba =  new BankAccount(1000, "43589");
-		
-		
-		
+		BankAccount ba = new BankAccount(1000, "43589");
+
 		try {
 			ba.withdraw(200);
 			ba.withdraw(600);
@@ -16,7 +14,6 @@ public class Main {
 			// TODO Auto-generated catch block
 			System.out.println("Insufficient Funds, you need: " + e.getAmount() + " to complete transaction");
 		}
-		
 
 	}
 

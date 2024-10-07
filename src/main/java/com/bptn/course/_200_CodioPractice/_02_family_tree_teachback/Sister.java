@@ -9,7 +9,9 @@ public class Sister extends FamilyTree {
 		
 	}
 	
-	
+	public String relativeType(String name) {
+		return name + "is a sister";
+	}
 	
 	
 
@@ -19,6 +21,8 @@ public class Sister extends FamilyTree {
 		Sister sissy = new Sister ("lisa", "82 July 1998", 36, "fun");
 		
 		System.out.println(sissy.nextBirthday());
+		
+		System.out.println(sissy.relativeType());
 		
 
 	}

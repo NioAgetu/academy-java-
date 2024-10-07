@@ -12,16 +12,16 @@ public class FamilyTree {
 		this.age =  age;
 	}
 	
-	public String toString() {
-		return "The family name is " + name + ", birthday is: " + birthday + " and age is " + age;
-	}
+	//public String toString() {
+	//	return "The family name is " + name + ", birthday is: " + birthday + " and age is " + age;
+	//}
 	
 	
 	
-	public int hashCode()
-	{
-		return 34567890;
-	}
+	//public int hashCode()
+	//{
+		//return 34567890;
+	//}
 	
 	
 	public int nextBirthday() {
@@ -31,10 +31,23 @@ public class FamilyTree {
 	public String relativeType() {
 		return "Family Member";
 	}
+	
+	public String relativeType(String name) {
+
+		return this.name + "is a family member";
+
+	}
 
 	public static void main(String[] args) {
 		FamilyTree ft1 = new FamilyTree ("Webster", "june 10 1967", 57);
 		FamilyTree ft2 = new FamilyTree ("Kodi", "october 13 2007", 17);
+		
+		
+		
+		
+		
+		ft1.hashCode();
+		System.out.println(ft1.hashCode());
 		
 		String printToString = ft1.toString();
 		System.out.println(printToString);
@@ -42,11 +55,8 @@ public class FamilyTree {
 		ft2.getClass();
 		System.out.println(ft2.getClass());
 		
-		ft2.hashCode();
-		System.out.println(ft2.hashCode());
-		
-		ft2.nextBirthday();
-		System.out.println(ft2.nextBirthday());
+		ft1.nextBirthday();
+		System.out.println(ft1.nextBirthday());
 		
 		System.out.println(ft2.relativeType());
 		
